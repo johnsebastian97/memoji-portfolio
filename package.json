@@ -1,24 +1,16 @@
 {
   "name": "memoji-portfolio",
   "version": "1.0.0",
-  "private": true,
-  "homepage": "https://johnsebastian97.github.io/memoji-portfolio",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "vite build && rm -rf docs && mv dist docs"
   },
   "dependencies": {
-    "framer-motion": "^10.16.1",
-    "lucide-react": "^0.320.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.24",
-    "tailwindcss": "^3.3.2",
-    "vite": "^7.0.0"
+    "vite": "^4.0.0"
   }
 }
